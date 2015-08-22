@@ -45,7 +45,43 @@
     //Including Slider
     include 'navbar.php';
     ?> 
+<!-- Page Content -->
+<div class="container">
 
+
+        <div class="row">
+                <div class="col-xs-6 col-md-4">
+
+                    <div class="row"><br><br></div>
+
+                    <div class="list-group">
+                      
+                      <a href="1_day_tour.php" class="list-group-item ">01 Day Tour</a>
+                      <a href="2_day_tour.php" class="list-group-item">02 Day Tour</a>
+                      <a href="3_day_tour.php" class="list-group-item ">03 Day Tour</a>
+                      <a href="4_day_tour.php" class="list-group-item">04 Day Tour</a>
+                      <a href="6_day_tour.php" class="list-group-item ">06 Day Tour</a>
+                      <a href="9_day_tour.php" class="list-group-item">09 Day Tour</a>
+                      <a href="10_day_tour.php" class="list-group-item ">10 Day Tour</a>
+                      <a href="14_day_tour.php" class="list-group-item ">14 Day Tour</a>
+                      <a href="15_day_tour.php" class="list-group-item active ">15 Day Tour</a>
+                      <a href="special_tour.php" class="list-group-item ">Special Tour</a>
+
+                    </div>
+                    
+                </div>
+
+                <div class="ccol-xs-10 col-md-6">
+                    <h2>Tour Packages</h2>
+                    <div id="googleMap" ></div>
+
+                </div>
+
+                <div class="col-xs-2 col-md-2"></div>
+
+        </div><!--end row-->
+
+</div><!--end container-->
 
 
 

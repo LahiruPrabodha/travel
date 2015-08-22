@@ -47,10 +47,33 @@
     ?> 
 
 
+<!-- Page Content -->
 <div class="container">
 
 
-        <img src="img/tour_map.png">
+        <div class="row">
+                <div class="col-xs-6 col-md-4">
+
+                    
+                    <div class="row"><br><br></div>
+                    <div class="list-group">
+                      
+                      <a href="roadmap.php" class="list-group-item ">Road Map</a>
+                      <a href="touristmap.php" class="list-group-item active">Tour Map</a>
+
+                    </div>
+                    
+                </div>
+
+                <div class="ccol-xs-10 col-md-6">
+                    <h2>Sri Lanka Tour Map</h2>
+                    <img src="img/tour_map.png">
+
+                </div>
+
+                <div class="col-xs-2 col-md-2"></div>
+
+        </div><!--end row-->
 
 </div><!--end container-->
 

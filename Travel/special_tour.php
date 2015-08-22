@@ -36,27 +36,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<script src="http://maps.googleapis.com/maps/api/js"></script>
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(7.8000,80.5000),
-    zoom:8,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
-<style type="text/css">
-#googleMap{
-
-    width:500px;
-    height:700px;
-
-};
-</style>
 
 </head>
 
@@ -77,15 +56,23 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
                     <div class="list-group">
                       
-                      <a href="roadmap.php" class="list-group-item active">Road Map</a>
-                      <a href="touristmap.php" class="list-group-item">Tour Map</a>
+                      <a href="1_day_tour.php" class="list-group-item ">01 Day Tour</a>
+                      <a href="2_day_tour.php" class="list-group-item">02 Day Tour</a>
+                      <a href="3_day_tour.php" class="list-group-item ">03 Day Tour</a>
+                      <a href="4_day_tour.php" class="list-group-item">04 Day Tour</a>
+                      <a href="6_day_tour.php" class="list-group-item ">06 Day Tour</a>
+                      <a href="9_day_tour.php" class="list-group-item">09 Day Tour</a>
+                      <a href="10_day_tour.php" class="list-group-item ">10 Day Tour</a>
+                      <a href="14_day_tour.php" class="list-group-item ">14 Day Tour</a>
+                      <a href="15_day_tour.php" class="list-group-item ">15 Day Tour</a>
+                      <a href="special_tour.php" class="list-group-item active">Special Tour</a>
 
                     </div>
                     
                 </div>
 
                 <div class="ccol-xs-10 col-md-6">
-                    <h2>Sri Lanka Road Map</h2>
+                    <h2>Tour Packages</h2>
                     <div id="googleMap" ></div>
 
                 </div>
@@ -97,7 +84,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </div><!--end container-->
 
 
-   <hr>
+
+
+        <hr>
 
         <!-- Footer -->
 
